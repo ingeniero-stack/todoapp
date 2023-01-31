@@ -1,0 +1,71 @@
+body{
+    background-color:orange;
+}
+
+
+#todo-form input {
+    display: block;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+    }
+
+    #Completedtasks{
+        display: block;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    }
+
+    #Uncompletedtasks{
+        display: block;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    }
+
+
+
+
+    #Completed{
+        background-color: #1d34b4;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        
+
+    }
+
+    #Uncompleted{
+        background-color: #1d34b4;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #todo-form button {
+    background-color: #1d34b4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #todo-list li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    }
